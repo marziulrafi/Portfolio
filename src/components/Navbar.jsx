@@ -18,8 +18,8 @@ const Navbar = () => {
       initial={{ y: -60 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className="fixed w-full bg-[#0F172A] text-white shadow z-50">
-      
+      className="fixed w-full bg-[#0F172A]  text-white shadow z-50">
+
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
 
         <h1 className="text-xl font-semibold tracking-wider text-blue-400">MK</h1>
@@ -37,7 +37,7 @@ const Navbar = () => {
 
         <div className="hidden md:flex">
           <a
-            href="/resume.pdf"
+            href="/K M Marziul Karim - Resume.pdf"
             download
             className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-sm transition duration-300"
           >
@@ -59,7 +59,7 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden px-4 pb-4 space-y-2 bg-[#0F172A]">
+        <div className="md:hidden px-4 pb-4 space-y-2 bg-[#0F172A] ">
           {links.map(link => (
             <a
               key={link.name}
