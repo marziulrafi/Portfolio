@@ -5,7 +5,6 @@ const links = [
   { name: "Home", to: "#home" },
   { name: "About", to: "#about" },
   { name: "Skills", to: "#skills" },
-  { name: "Education", to: "#education" },
   { name: "Projects", to: "#projects" },
   { name: "Contact", to: "#contact" },
 ];
@@ -18,13 +17,13 @@ const Navbar = () => {
       initial={{ y: -60 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className="fixed w-full bg-[#0F172A]  text-white shadow z-50">
+      className="fixed w-full bg-[#0F172A] text-white shadow z-50">
 
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
 
-        <h1 className="text-xl font-semibold tracking-wider text-blue-400">MK</h1>
+       <img src="/marziul.png" className="lg:mt-2 w-10 h-10 lg:ml-20" alt="" />
 
-        <div className="hidden md:flex flex-1 justify-center gap-6">
+        <div className="hidden md:flex flex-1 justify-center gap-6 mr-14">
           {links.map(link => (
             <a
               key={link.name}
@@ -33,16 +32,6 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-        </div>
-
-        <div className="hidden md:flex">
-          <a
-            href="/K M Marziul Karim - Resume.pdf"
-            download
-            className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-sm transition duration-300"
-          >
-            Download Resume
-          </a>
         </div>
 
         <div className="md:hidden">
@@ -70,13 +59,7 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <a
-            href="/resume.pdf"
-            download
-            className="block mt-2 text-center bg-blue-500 text-white px-3 py-2 rounded text-sm"
-          >
-            Download Resume
-          </a>
+         
         </div>
       )}
     </motion.nav>

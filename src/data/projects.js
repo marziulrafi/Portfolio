@@ -1,8 +1,8 @@
 export const projects = [
     {
         name: "PickBetter",
-        image: "/src/data/pickbetter.png",
-        tech: ["React", "Firebase", "MongoDB", "Express"],
+        image: "/pickbetter.png",
+        tech: ["React", "Firebase", "MongoDB", "JWT Authentication"],
         live: "https://marziul-pickbetter.web.app/",
         github: "https://github.com/marziulrafi/PickBetter",
         description: "A product recommendation platform where users can post their queries and receive suggestions.",
@@ -11,7 +11,7 @@ export const projects = [
     },
     {
         name: "DocTalk",
-        image: "/src/data/doctalk.png",
+        image: "/doctalk.png",
         tech: ["React", "Recharts", "LocalStorage"],
         live: "https://marziul-doctalk.netlify.app/",
         github: "https://github.com/marziulrafi/DocTalk",
@@ -21,7 +21,7 @@ export const projects = [
     },
     {
         name: "QuestWork",
-        image: "/src/data/questwork.png",
+        image: "/questwork.png",
         tech: ["React", "Firebase", "Tailwind"],
         live: "https://marziul-questwork.web.app/",
         github: "https://github.com/marziulrafi/QuestWork",
