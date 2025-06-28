@@ -41,7 +41,7 @@ const Hero = () => {
             <a
               href="/K M Marziul Karim - Resume.pdf"
               download
-              className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-sm transition duration-300"
+              className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded font-semibold text-sm transition duration-300"
             >
               Download Resume
             </a>

@@ -19,7 +19,7 @@ const Projects = () => {
                             key={index}
                             className="bg-[#0F172A]  rounded-xl p-4 shadow-md hover:shadow-2xl transition duration-300 transform hover:-translate-y-1"
                         >
-                           
+
                             <div className="overflow-hidden rounded-md mb-4">
                                 <img
                                     src={project.image}
