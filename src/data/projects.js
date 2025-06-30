@@ -6,7 +6,7 @@ export const projects = [
         tech: ["React", "Firebase", "MongoDB", "JWT Authentication"],
         live: "https://marziul-pickbetter.web.app/",
         github: "https://github.com/marziulrafi/PickBetter",
-        description: "A product recommendation platform.",
+        description: "A product recommendation platform, enabling users to post queries and receive suggestions.",
         challenges: "Managing protected routes and syncing localStorage with paid data.",
         improvements: "Add admin dashboard and real-time database integration.",
     },
